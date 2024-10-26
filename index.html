@@ -3,77 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Provisional Vineyard</title>
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(145deg, #2b3a2f, #1f2923); /* Dark olive with depth */
-            color: #e4d7c1;
-            overflow: hidden;
-        }
-        .container {
-            text-align: center;
-            opacity: 0;
-            animation: fadeIn 2s ease-in-out forwards;
-        }
-        .logo {
-            width: 150px;
-            height: auto;
-            border-radius: 1%;
-            display: block;
-            margin: 0 auto 20px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds depth to the logo circle */
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin: 20px 0;
-            color: #d4cdbd;
-            font-family: 'Playfair Display', serif;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-        p {
-            font-size: 1.1rem;
-            margin: 10px 0;
-            letter-spacing: 1px;
-        }
-        a {
-            color: #c47451;
-            text-decoration: none;
-            /* border-bottom: 2px solid #c47451; */
-            padding-bottom: 3px;
-            transition: color 0.3s ease, border-bottom-color 0.3s ease, opacity 0.3s;
-        }
-        a:hover {
-            color: #e4d7c1;
-            opacity: 0.8;
-        }
-
-        /* Animation for fading in the container */
-        @keyframes fadeIn {
-            0% { opacity: 0; }
-            100% { opacity: 1; }
-        }
-
-        /* Subtle bounce for the logo */
-        @keyframes bounce {
-            0% { transform: translateY(0); }
-            100% { transform: translateY(-10px); }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="Logo.webp" alt="Vineyard Logo" class="logo">
+    <div class="landing">
         <h1>Provisional Vineyard</h1>
-        <p><a href="mailto:jack@provisionalvineyard.com">contact</a></p>
+        <nav>
+            <a href="mailto:info@provisionalvineyard.com">Contact</a>
+            <a href="wine.html">Wine</a>
+        </nav>
     </div>
 </body>
 </html>
