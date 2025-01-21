@@ -100,3 +100,9 @@ nav a:hover {
     top: 1rem;
     left: 1rem;
 }*/
+
+.compact-text {
+    max-width: 300px; /* Adjust the width as needed */
+    padding: 10px;
+    word-wrap: break-word;
+}
